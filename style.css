@@ -1,0 +1,76 @@
+/* General Styles */
+body {
+    font-family: 'Poppins', sans-serif; /* Different font */
+    background-color: #f8f9fa;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+/* Header Styling */
+.header {
+    background-color: #007bff;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+/* Class Selector: Styling the container */
+.container {
+    width: 80%;
+    margin: 20px auto;
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* ID Selector: Special text */
+#special-text {
+    color: #d9534f;
+    font-weight: bold;
+    font-size: 18px;
+    text-align: center;
+}
+
+/* Styling an Image */
+img {
+    width: 100%;
+    max-width: 400px;
+    display: block;
+    margin: 20px auto;
+    border-radius: 10px;
+    border: 3px solid #333;
+}
+
+/* Button Styling */
+.button {
+    display: inline-block;
+    background-color: #28a745;
+    color: white;
+    padding: 12px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 15px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.button:hover {
+    background-color: #218838;
+}
+
+/* Box for Margins, Padding, and Borders */
+.box {
+    width: 250px;
+    height: 120px;
+    background-color: #ffcc00;
+    margin: 30px auto;
+    padding: 20px;
+    border: 5px solid #333;
+    text-align: center;
+    line-height: 120px;
+    font-weight: bold;
+}
